@@ -1,0 +1,48 @@
+{
+  "name": "cromwell-theme-template",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "build",
+    "static",
+    "cromwell.config.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "build": "npx cromwell b",
+    "watch": "npx cromwell b -w"
+  },
+  "cromwell": {
+    "type": "theme",
+    "title": "",
+    "image": "",
+    "excerpt": "",
+    "description": "",
+    "author": "",
+    "plugins": [],
+    "frontendDependencies": [],
+    "firstLoadedDependencies": []
+  },
+  "devDependencies": {
+    "@cromwell/cms": "^1.1.3",
+    "@cromwell/core": "^1.1.8",
+    "@cromwell/core-backend": "^1.0.10",
+    "@cromwell/core-frontend": "^1.0.7",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-ts-compiler": "^1.0.16",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.4"
+  },
+  "peerDependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
