@@ -42,6 +42,7 @@ module.exports = {
       },
     }
   },
+  headHtml: "<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap\" rel=\"stylesheet\" />",
   defaultPages: {
     index: 'index',
     category: 'category/[slug]',
@@ -61,7 +62,7 @@ module.exports = {
       modifications: [
         {
           "type": "plugin",
-          "id": "main_showcase",
+          "id": "home_showcase",
           "plugin": {
             "pluginName": "@cromwell/plugin-product-showcase"
           }
