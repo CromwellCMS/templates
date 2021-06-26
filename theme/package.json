@@ -15,11 +15,11 @@
   },
   "cromwell": {
     "type": "theme",
-    "title": "",
-    "image": "",
-    "excerpt": "",
-    "description": "",
-    "author": "",
+    "title": "cromwell-theme-template",
+    "image": "static/logo.png",
+    "excerpt": "cromwell-theme-template excerpt",
+    "description": "cromwell-theme-template description",
+    "author": "CromwellCMS",
     "plugins": [],
     "frontendDependencies": [],
     "firstLoadedDependencies": []
@@ -47,5 +47,8 @@
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@cromwell/plugin-product-filter": "1.0.2"
   }
 }

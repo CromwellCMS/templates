@@ -1,0 +1,10 @@
+{
+  "name": "cromwell-basic-template",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "start": "npx cromwell start"
+  }
+}

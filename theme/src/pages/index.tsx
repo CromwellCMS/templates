@@ -14,7 +14,7 @@ const HomePage: TCromwellPage<IdexProps> = (props) => (
     <CContainer id="home_title">
       <h1>Hello {props.data}</h1>
     </CContainer>
-    <CImage id="home_1" src="/themes/cromwell-theme-template/logo.png" width={200} height={200} />
+    <CImage id="home_logo" src="/themes/cromwell-theme-template/logo.png" width={200} height={200} />
     <CPlugin id="home_showcase" style={{ width: '100%' }} />
   </CContainer>
 )
