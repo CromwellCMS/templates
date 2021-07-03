@@ -1,5 +1,5 @@
 {
-  "name": "cromwell-theme-template",
+  "name": "cromwell-plugin-template",
   "version": "1.0.0",
   "description": "",
   "files": [
@@ -14,15 +14,12 @@
     "watch": "npx cromwell b -w"
   },
   "cromwell": {
-    "type": "theme",
-    "title": "cromwell-theme-template",
+    "type": "plugin",
+    "title": "cromwell-plugin-template",
     "image": "static/logo.png",
-    "excerpt": "cromwell-theme-template excerpt",
-    "description": "cromwell-theme-template description",
-    "author": "CromwellCMS",
-    "plugins": [],
-    "frontendDependencies": [],
-    "firstLoadedDependencies": []
+    "excerpt": "cromwell-plugin-template excerpt",
+    "description": "cromwell-plugin-template description",
+    "author": "CromwellCMS"
   },
   "devDependencies": {
     "@cromwell/cms": "^1.1.3",
@@ -30,8 +27,8 @@
     "@cromwell/core-backend": "^1.0.10",
     "@cromwell/core-frontend": "^1.0.7",
     "@cromwell/plugin-main-menu": "^1.0.9",
-    "@cromwell/plugin-product-showcase": "^1.0.6",
     "@cromwell/plugin-product-filter": "1.0.2",
+    "@cromwell/plugin-product-showcase": "^1.0.6",
     "@cromwell/theme-store": "^1.1.1",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
@@ -45,7 +42,6 @@
     "typescript": "^4.3.4"
   },
   "peerDependencies": {
-    "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
