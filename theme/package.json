@@ -31,7 +31,7 @@
     "@cromwell/core-frontend": "^1.0.7",
     "@cromwell/plugin-main-menu": "^1.0.9",
     "@cromwell/plugin-product-showcase": "^1.0.6",
-    "@cromwell/plugin-product-filter": "1.0.2",
+    "@cromwell/plugin-product-filter": "^1.0.2",
     "@cromwell/theme-store": "^1.1.1",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
