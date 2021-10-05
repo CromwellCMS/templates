@@ -25,6 +25,7 @@
     "firstLoadedDependencies": []
   },
   "devDependencies": {
+    "@babel/core": "7.15.5",
     "@cromwell/cms": "^1.1.3",
     "@cromwell/core": "^1.1.8",
     "@cromwell/core-backend": "^1.0.10",
