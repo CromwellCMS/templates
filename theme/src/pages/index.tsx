@@ -21,8 +21,10 @@ const HomePage: TCromwellPage<IdexProps> = (props) => (
 
 export default HomePage;
 
-export const getStaticProps: TGetStaticProps = async (context): Promise<IdexProps> => {
+export const getStaticProps: TGetStaticProps<IdexProps> = async (context) => {
   return {
-    data: 'Cromwell CMS'
+    props: {
+      data: 'Cromwell CMS'
+    }
   }
 }

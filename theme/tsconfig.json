@@ -3,7 +3,12 @@
     "target": "ES2019",
     "module": "ESNext",
     "baseUrl": ".",
-    "jsx": "react",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "isolatedModules": true,
@@ -14,6 +19,10 @@
     "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true
   },
   "exclude": [
     "node_modules",
