@@ -1,4 +1,4 @@
-import { TFrontendPluginProps, TGetStaticProps } from '@cromwell/core';
+import { TFrontendPluginProps, TGetPluginStaticProps } from '@cromwell/core';
 import React from 'react';
 
 import { SettingsType } from '../types';
@@ -17,7 +17,7 @@ export default function YouPluginName(props: TFrontendPluginProps<DataType>) {
   )
 }
 
-export const getStaticProps: TGetStaticProps<SettingsType> = async (context): Promise<DataType> => {
+export const getStaticProps: TGetPluginStaticProps<SettingsType> = async (context): Promise<DataType> => {
   return {
     message: 'Hello world',
     someSettingProp: context.pluginSettings?.someProp,

@@ -16,24 +16,6 @@ module.exports = {
       route: "index",
       name: "Home",
       title: "Home page",
-      modifications: [
-        {
-          "type": "plugin",
-          "id": "home_showcase",
-          "plugin": {
-            "pluginName": "@cromwell/plugin-product-showcase"
-          }
-        }
-      ]
     },
-  ],
-  globalModifications: [
-    {
-      "type": "plugin",
-      "id": "header_main_menu",
-      "plugin": {
-        "pluginName": "@cromwell/plugin-main-menu"
-      }
-    }
   ]
 };
