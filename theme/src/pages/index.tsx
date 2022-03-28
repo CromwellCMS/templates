@@ -1,5 +1,5 @@
 import { TCromwellPage, TGetStaticProps } from '@cromwell/core';
-import { CContainer, CImage, CPlugin, registerPlugin } from '@cromwell/core-frontend';
+import { CContainer, CImage, CPlugin, registerPluginSSR } from '@cromwell/core-frontend';
 import React from 'react';
 
 import styles from './index.module.scss';
@@ -8,8 +8,8 @@ type IdexProps = {
   data: string;
 }
 
-registerPlugin('@cromwell/plugin-main-menu', '*');
-registerPlugin('@cromwell/plugin-product-showcase', 'index');
+registerPluginSSR('@cromwell/plugin-main-menu', '*');
+registerPluginSSR('@cromwell/plugin-product-showcase', 'index');
 
 const HomePage: TCromwellPage<IdexProps> = (props) => (
   <CContainer id="home_root" className={styles.container}>
