@@ -16,7 +16,7 @@
   "cromwell": {
     "type": "theme",
     "title": "cromwell-theme-template",
-    "image": "static/logo.png",
+    "image": "static/logo.svg",
     "excerpt": "cromwell-theme-template excerpt",
     "description": "cromwell-theme-template description",
     "author": "CromwellCMS",

@@ -9,16 +9,14 @@ type IdexProps = {
 }
 
 registerPluginSSR('@cromwell/plugin-main-menu', '*');
-registerPluginSSR('@cromwell/plugin-product-showcase', 'index');
 
 const HomePage: TCromwellPage<IdexProps> = (props) => (
   <CContainer id="home_root" className={styles.container}>
     <CPlugin id="header_main_menu" pluginName="@cromwell/plugin-main-menu" />
-    <CContainer id="home_title">
+    <CContainer id="home_title" style={{ margin: '20px auto' }}>
       <h1>Hello {props.data}</h1>
     </CContainer>
-    <CImage id="home_logo" src="/themes/cromwell-theme-template/logo.png" width={200} height={200} />
-    <CPlugin id="home_showcase" pluginName="@cromwell/plugin-product-showcase" style={{ width: '100%' }} />
+    <CImage id="home_logo" src="/themes/cromwell-theme-template/logo.svg" width={200} height={200} />
   </CContainer>
 )
 

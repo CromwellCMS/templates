@@ -16,7 +16,7 @@
   "cromwell": {
     "type": "plugin",
     "title": "cromwell-plugin-template",
-    "image": "static/logo.png",
+    "image": "static/logo.svg",
     "excerpt": "cromwell-plugin-template excerpt",
     "description": "cromwell-plugin-template description",
     "author": "CromwellCMS"
